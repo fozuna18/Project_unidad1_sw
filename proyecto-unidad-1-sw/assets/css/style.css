@@ -1,0 +1,224 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background: url(../img/cubes.png) #F4F4F4;
+}
+
+h1{
+    margin: 0px;
+}
+
+.login h1{
+    margin: 20px;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: .5rem;
+
+}
+
+header{
+    width: 90%;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    margin: 10px;
+}
+
+ul{
+    padding: 1.2em 0 0.5em;
+}
+
+span{
+    padding: 0 0 0 0.5em;
+}
+
+.precio,
+  i {
+    color: #2b2d42;
+  }
+  i:nth-of-type(2) {
+    cursor: pointer;
+  }
+
+img {
+    width: 100%;
+    height: 60%;
+    text-align: center;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+/*login*/
+.center{
+    text-align: center !important;
+}
+
+.session{
+    width: 100%;
+    max-width: 330px;
+    padding: 60px;
+    margin: auto;
+    margin-top: -40px;
+}
+
+.labels{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.form-control{
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15 ease-in-out;
+
+    margin-bottom: 10px;
+}
+
+.checkbox{
+    font-weight: 400;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.btn-log{
+    display: block;
+    width: 100%;
+
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #156785;
+
+    font-weight: 400;
+    text-align: center;
+
+    border: 1px solid transparent; 
+
+    cursor: pointer;
+}
+
+/*catalogo*/
+.serviciosDisponibles{
+    margin: 10px;
+}
+
+.servicios{
+    display: inline-block;
+    box-shadow: 1px 5px 15px #ccc;
+    width: 250px;
+    height: 280px;
+    border-radius: 3px;
+    padding: 28px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(to bottom, #F9F9F9 0PX, #E9E9E9 100%);
+
+}
+
+.descripcionServicios{
+    text-align: center;
+    align-items: center;
+    margin: -5px;
+    padding: 1px;
+}
+
+.btn-añadir{
+    display: block;
+    color: #fff;;
+    border-radius: 3px;
+    padding: 2px 6px;
+    margin: 5px 0 5px 74px;
+    background: #007EE5;
+    border: 1px solid #156785;
+    cursor: pointer;
+    padding: 7px;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    margin: 3px;
+}
+
+.bienvenida{
+    display: inline-block;
+    width: 75%;
+}
+
+.carrito{
+    display: inline-block;
+    width: 20%;
+}
+
+.btn-total, .btn-logout{
+    display: block;
+    width: 110px;
+
+    padding: .5rem 0.5rem;
+    font-size: 1rem;
+    line-height: 0.5;
+    border-radius: .3rem;
+
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #156785;
+
+    font-weight: 400;
+    text-align: center;
+
+    border: 1px solid transparent; 
+
+    cursor: pointer;
+}
+
+/*error*/
+
+.alerta-error{
+    align-items: center;
+    color: red;
+    display: flex;
+    box-shadow: 1px 5px 15px #ccc;
+    width: 300px;
+    height: 150px;
+    border-radius: 3px;
+    padding: 28px;
+    margin: 70px auto;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(to bottom, #F9F9F9 0PX, #E9E9E9 100%);
+
+}
+
